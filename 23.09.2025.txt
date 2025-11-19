@@ -1,0 +1,56 @@
+soma
+a=5
+b=10
+soma = a + b
+
+print soma 
+
++
+-
+*
+/
+
+soma, subtração, multiplicação, divisão
+
+divisão em python resulta sempre num numero decimal (float)
+
+15/3=5.0
+
+Resto/módulo - retorno do resto da divisão
+os restos das divisões vão dar-nos o código binário 0/1
+
+10 em linguagem binária 010
+
+numeros primos - divisiveis por eles mesmos ou por 1 
+
+prioridades: esquerda para a direita, 
+parentes em primeiro
+2º expoentes (**)
+3º multiplicaçao ou divisão por ordem de sequência
+útlimo adição/subtração
+
+num1 = 10
+num2 = 5
+
+soma = num1 + num2
+subtracao = num1 - num2 
+multiplicacao = num1 * num2
+divisao = num1 / num2
+resto = num1 % num2
+
+divisão por zero - erro (não há divisões por zero)
+
+
+Concatenação
+.format(a,b,c))
+
+f-strings (f" {], )
+
+: alinhado
+< esquerda
+> direita 
+15 espaços:
+
+
+
+

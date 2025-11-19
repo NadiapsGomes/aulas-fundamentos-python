@@ -1,0 +1,6 @@
+Condicionais:
+Instruir para a tomada de decisão
+condicionais simples : if
+compostos
+== sinal igual
+= recebe

@@ -1,0 +1,64 @@
+Input - entrada de informação ou dados
+STD in - standard input (teclado)
+
+input()
+num - variável
+
+Output - saída - informaçao que o programa produz
+print()
+
+input - input
+output - print
+
+sequência de escape, mais que um caractere - string (entre aspas, é o comando do programador que aparece entre aspas simples) - texto - sequência de caracteres que produz efeito 
+\n - nova linha - termina por padrão 
+\t - tab 4 espaços
+
+o programa é construido no campo de linhas, os dados são facultados no campo de baixo
+
+variável vs constantes
+não estática, dinamica vs inalterável 
+locais na memória (ex. num, ex: idade 
+
+No python não existem constentes, tudo é variável.
+Mas como é muito útil, instruimo-la como variável (escrito com o nome em letras maiusculas)
+tipagem de linguagem python: dinamica
+
+num - número - tipo de dados
+bool - boolean (em caso de true or false)
+int - inteiro (numeros)
+float (valores com pontos flutuantes) numeros decimais 
+
+= recebe, sinal de atribuição 
+print mostra me
+str string 
+ 
+exemplo:
+
+print(type(nome)) # string str
+print(type(idade))# inteiro int
+print(type(altura)) #float flo
+print/type(estado_civil)boolean bool
+
+
+Regras das declarações de variáveis: 
+Inicio nao pode ser com números
+Sem caracteres especiais (ao contrario de javascript)
+Não utilizar palavras reservadas (ex: print, input, type)
+Sem espaços
+
+Camel case - estilo de escrita que se distingue pela inicial de cada nova palavra em letra maiúscula
+Snake case - aconselhado escrever em Python ex: eu_sou_nadia
+
+do,de, da, (cortamos)
+
+escolher nomes significativos - para facilitar a leitura do código
+
+
+
+
+
+
+
+
+
