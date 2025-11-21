@@ -1,1 +1,0 @@
-print('Bem-vindo ao Python caro/a utilizador/a')

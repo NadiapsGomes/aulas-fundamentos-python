@@ -11,7 +11,7 @@ for c in range(qtd_alunos):
     aluno['Nome'] = input('Digite um nome: ')
     aluno['Média'] = float(input(f'Digite a média do(a) {aluno["Nome"]}: '))
 
-    aluno['Situação'] = 'Aprovado' if aluno['Média']>=9.5 else 'Reprovado'
+    aluno['Situação'] = 'Aprovado' if aluno['Média']>=9.5 else 'Reprovado' #operador ternário
 
     turma.append(aluno.copy())
 
