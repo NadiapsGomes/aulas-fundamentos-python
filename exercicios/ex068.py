@@ -6,11 +6,35 @@
 #c) Quantas mulheres foram registadas;
 #d) Quantos homens com idade acima da média foram registados.
 
-obj_estudo = []
-pessoa = dict()
+pessoas = []
+dados = dict()
+qtd_pessoas = 0
+soma_idades = 0
+qtd_mulheres = 0
 
-pessoa['Nome: '] = input('Digite o seu nome: ')
-pessoa['Idade: '] = int(input('Digite o seu ano de nascimento: '))
-pessoa['Sexo: '] = float(input('Digite o valor dos seus rendimentos: '))
+while True:
+    dados = dict()
+    dados['nome'] = input('Digite um nome: ').strip()
+    while True:
+        dados['sexo'] = input('Digite o sexo [m/f]: ').strip().lower()
+        if dados ['sexo'] != 'm' and dados ['sexo'] != 'f':
+            print('Por favor introduza um sexo válido.')
+        else:
+            break
 
-obj_estudo.append(pessoa)
+
+
+    dados['idade'] = int(input('Digite a idade: '))
+
+    soma_idades += dados['idade']
+    pessoas.append(dados.copy())
+    dados.clear()
+    qtd_pessoas += 1
+
+    opcao = input('Digite sim para terminar')
+    if opcao == 'sim':
+        break
+
+
+
+
