@@ -8,9 +8,11 @@
 # Inês / Julia / Nádia
 
 from pathlib import Path
+import os
 
 pasta = Path('bloco_notas')
 ficheiro = pasta / 'notas.txt'
+os.makedirs(pasta,exist_ok=True)
 
 def adicionar_nota():
     nota = input('Nota:\n> ')
