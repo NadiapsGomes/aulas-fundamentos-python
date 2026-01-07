@@ -10,7 +10,7 @@
 from pathlib import Path
 import os
 
-pasta = Path('bloco_notas')
+pasta = Path('../bloco_notas')
 ficheiro = pasta / 'notas.txt'
 os.makedirs(pasta, exist_ok=True)
 
@@ -70,7 +70,7 @@ def mostrar_menu():
     print('[ 4 ] - Pesquisar notas por palavra-chave')
     print('[ 5 ] - Sair\n')
 
-def main():
+def main(): #aqui podemos usar a função "match opcao: case 1: x, case 2: "
     while True:
         mostrar_menu()
         opcao = input('Escolha uma opção: ')

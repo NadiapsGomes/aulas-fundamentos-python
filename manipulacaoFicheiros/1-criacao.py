@@ -8,7 +8,7 @@ from pathlib import Path #Classe path que dá métodos/funções típicas de fic
 #Criar a variável que representa o caminho do ficheiro
 
 string = r'' #leitura literal, raw string
-caminho = Path(r'ficheiros\teste.txt') #o caminho está representado por uma biblioteca path
+caminho = Path(r'ficheiros/teste.txt') #o caminho está representado por uma biblioteca path
 
 #O pyhton cria o ficheiro se ele não existir
 #Podemos abrir o ficheiro em modos diferentes:
