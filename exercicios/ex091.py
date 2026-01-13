@@ -7,9 +7,6 @@ class Livro:
         self.titulo = titulo
         self.autor = autor
 
-    def leituras(self):
-        print(f'Plano de leitura anual: {self.titulo}, do autor {self.autor}')
-
     def descricao(self):
         print(f'O livro com o titulo {self.titulo} foi escrito pelo autor {self.autor}.')
 
