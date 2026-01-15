@@ -87,3 +87,4 @@ data_final = dataNotificacao + timedelta(days=total_dias)
 print(f'O prazo termina em {data_final.strftime("%d/%m/%Y")}\nConsidera-se citado no dia {prazo}, a que acrescentamos a dilação de {dias_citacao + dias_dilacao} dias.\nDispõe ainda de mais 3 dias, caso pretenda suportar a coima referente ao justo impedimento elencada no artigo 139º CPC.')
 
 
+#falta resolver a questão dos prazos ininterruptos e férias judiciais
